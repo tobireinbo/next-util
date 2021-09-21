@@ -1,5 +1,3 @@
-/*
-    Import and export the desired modules here
-*/
+import { Cookie } from "./Cookie/Cookie";
 
-console.log("Hello World");
+export { Cookie };

@@ -13,7 +13,12 @@
   },
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "next": ">=11.1.2",
+    "cookie": ">=0.4.1"
+  },
   "devDependencies": {
+    "@types/cookie": ">=0.4.1",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "rollup": "^2.56.3",
