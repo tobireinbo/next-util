@@ -14,13 +14,19 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
+    "@hapi/iron": "6.0.0",
+    "cookie": ">=0.4.1",
     "next": ">=11.1.2",
-    "cookie": ">=0.4.1"
+    "next-connect": "0.8.1",
+    "passport": "0.4.1",
+    "passport-local": "1.0.0",
+    "swr": "^0.5.5"
   },
   "devDependencies": {
-    "@types/cookie": ">=0.4.1",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/cookie": ">=0.4.1",
+    "@types/jest": "^27.0.3",
     "rollup": "^2.56.3",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.30.0",
